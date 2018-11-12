@@ -1,0 +1,230 @@
+/*All about the body*/
+*{
+	box-sizing: border-box;
+	margin: 0;
+}
+body{
+	color:  #333333;
+	font-family: Helvetica Neue, Helvetica, sans-serif;
+}
+.grid{
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+.double {
+    width: calc(calc(100% / 2) * 2);
+}
+
+h1{
+	font-size: 40px;
+	margin-bottom: 25px;
+}
+h2{
+	font-size: 36px;
+	margin: 25px 0;
+}
+h3{
+	font-size: 30px;
+}
+
+/*Logo Bar*/
+.RowLogo{
+	width: 100%;
+	display:flex;
+	flex-wrap: wrap;
+	background-color: #333333;
+}
+.logo{
+	width: 10%;
+	height:45px;
+	margin:0;
+}
+.lable{
+	width: 65%;
+	height:45px;
+	margin:0;
+}
+
+/*Black Menu*/
+
+.menu{
+	background-color: #333333;
+    margin: 0;
+    padding: 13px;
+    display: block;
+}
+
+.menu a{
+    color: white;
+}
+
+/*Links yellow one blue*/
+/*main container of the body*/
+.container{
+	margin: 0 35px 35px 35px;
+	padding: 0 25px;
+}
+.menu2 > li{
+    margin: 20px;
+    padding: 10px 14px;
+    list-style: none;
+    display: inline-block;
+}
+.menu2 > li:nth-child(3){
+	background-color: lightblue;
+    color: black;
+    text-decoration: none;
+}
+
+.container a{
+    background-color: #F9F7BE;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+/*Columns*/
+
+.LeftCol{
+	width: 70%;
+	}
+.RightCol{
+	width: 30%;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 16px;
+}
+
+.alignLeft{
+	width: 70%;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0;
+}
+.double{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.LastText{
+	width: 60%;
+}
+
+.LastText span{
+    font-weight: bold;
+}
+
+.SecondText{
+	width: 50%;
+}
+
+.pictureOne{
+	width: 40%;	
+}
+
+.photo{
+	width: 50%;
+}
+
+.photo > img {
+    width: 100%;
+}
+
+/*Right Info Upcoming Events*/
+.forthcoming p{
+    font-size: 15px;
+    padding: 0;
+    text-align: left;
+}
+.pic{
+	width: 25%;
+}
+.desc{
+	width: 75%;
+	font-size: 14px;
+	padding-left: 10px;
+}
+.forthcoming.desc span{
+	color: gray;
+}
+
+/* a{
+	display: inline-block;
+	color: white;
+	margin-right: 11px;
+} */
+
+.forthcoming.desc a{
+    background-color: transparent;
+    font-size: 13px;
+	color: blue;
+}
+
+/*Footer*/
+.contact{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.contact{
+	font-size: 13px;
+	margin: 25px 0;
+}
+
+.info{
+	flex:1;
+}
+
+.info p{
+    font-weight: bold;
+    display: inline-block;
+}
+
+/*Fixed Box*/
+
+#fixedBox{
+    height: 100px;
+    width: 300px;
+    background-color: #3A539B;
+    color: white;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+#fixedBox p{
+    margin-top: 10px;
+    padding-left: 10px; 
+}
+form {
+    /* This bit sets up the horizontal layout */
+    display:flex;
+    flex-direction:row;
+    /* This bit draws the box around it */
+    padding: 4px;
+}
+
+input {
+  /* Tell the input to use all the available space */
+  flex-grow:2;
+  /* And hide the input's outline, so the form looks like the outline */
+  border:none;
+  font-size: 15px;
+}
+  
+button {
+  color:white;
+}
+
+.fas.fa-search{
+      color: #333333;      
+}
+
+i{
+    color: #DB4B38;
+}
+
+
